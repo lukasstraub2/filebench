@@ -5,6 +5,7 @@ AC_INIT([filebench], [1.5-alpha3])
 AC_CONFIG_MACRO_DIRS([m4])
 AM_CONFIG_HEADER([config.h])
 AM_INIT_AUTOMAKE([subdir-objects])
+AM_MAINTAINER_MODE([disable])
 
 ####
 #### Checking for programs
